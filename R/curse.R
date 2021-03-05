@@ -19,6 +19,6 @@ curse <-
       out <- phrases[random.no]
     
     
-    cat ( out )
+    cat ( out, "\n" )
     
   }
