@@ -1,0 +1,14 @@
+Package: cuRse
+Type: Package
+Title: Cursing words and phrases
+Version: 1.0
+Date: 2021-03-02
+Author: Guilherme Hermanson
+Maintainer: Guilherme Hermanson <guilhermehermanson@gmail.com>
+Description: Release some tension when coding by casting some curse words at your screen, not personally intended of course.
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 7.1.1
+NeedsCompilation: no
+Packaged: 2021-03-05 13:28:51 UTC; Guilherme
+Depends: R (>= 3.5.0)
