@@ -10,5 +10,4 @@ License: MIT + file LICENSE
 LazyData: true
 RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2021-03-05 13:28:51 UTC; Guilherme
 Depends: R (>= 3.5.0)
