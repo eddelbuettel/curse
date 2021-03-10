@@ -8,14 +8,15 @@
 #' @export
 
 curse <- function(polite = FALSE){
+    if (!exists("phrases")) utils::data("phrases", package="cuRse")
     random.no <- sample(length(phrases) , size = 1)
-    
+
     if (polite == TRUE){
         polite.phrases <- gsub(pattern = 'uck', replacement = '***' , x = phrases)
         out <- polite.phrases[random.no]
     } else
         out <- phrases[random.no]
-    
+
     cat ( out, "\n" )
 }
 
