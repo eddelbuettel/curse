@@ -7,18 +7,16 @@
 #' @return A random cursing word/phrase
 #' @export
 
-curse <-
-  function(polite = FALSE){
+curse <- function(polite = FALSE){
     random.no <- sample(length(phrases) , size = 1)
     
     if (polite == TRUE){
-      polite.phrases <- gsub(pattern = 'uck', replacement = '***' , x = phrases)
-    out <- polite.phrases[random.no]}
-    
-    else 
-      out <- phrases[random.no]
-    
+        polite.phrases <- gsub(pattern = 'uck', replacement = '***' , x = phrases)
+        out <- polite.phrases[random.no]
+    } else
+        out <- phrases[random.no]
     
     cat ( out, "\n" )
-    
-  }
+}
+
+utils::globalVariables("phrases")
