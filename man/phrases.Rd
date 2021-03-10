@@ -14,8 +14,4 @@ List of cursing words and phrases
   \item{phrases}{List of cursing words and phrases}
   }
 }
-\source{
-}
-\examples{
-}
 \keyword{datasets}
