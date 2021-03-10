@@ -8,7 +8,7 @@
 #' @export
 
 curse <- function(polite = FALSE){
-    if (!exists("phrases")) utils::data("phrases", package="cuRse")
+    if (!exists("phrases")) utils::data("phrases", package="curse")
     random.no <- sample(length(phrases) , size = 1)
 
     if (polite == TRUE){
