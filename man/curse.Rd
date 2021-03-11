@@ -7,12 +7,16 @@
 curse(polite = FALSE)
 }
 \arguments{
-\item{polite}{Logical. If FALSE (default), returns the original cursing phrases. If TRUE, the 'F' word is omitted}
+\item{polite}{Logical. If FALSE (default), returns the one of the original cursing
+phrases. If TRUE, the 'eff' word is blanked by three stars}
 }
 \value{
-A random cursing word/phrase
+A randomly sampled cursing word or phrase
 }
 \description{
 This function prints cursing words on the screen. The user can choose between
 the original content or a 'polite' version.
+}
+\examples{
+curse(polite=TRUE)
 }
