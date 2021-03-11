@@ -8,7 +8,6 @@
 #' @return A randomly sampled cursing word or phrase
 #' @examples
 #' curse(polite=TRUE)
-#' @export
 curse <- function(polite = FALSE){
     if (is.null(.curse.env$phrases)) .curse.env$phrases <- .read.phrases()
     phrases <- .curse.env$phrases
